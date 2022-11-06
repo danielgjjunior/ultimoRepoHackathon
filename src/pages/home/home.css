@@ -1,0 +1,52 @@
+
+.containerGlobal{
+    display: grid
+}
+.listContainer{
+    margin-top: 10px;
+    height: 40vh;
+    overflow-y: scroll;
+    display:grid;
+    gap: 10px
+}
+h1{
+    margin-top: 80px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    max-width: 300px;
+    font-size: 28pt
+}
+.listTipos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20em;
+    height: 50px;
+    background: #E4E4E7;
+    padding: 5px;
+    justify-content: left;
+    
+}
+
+
+.listTipos span{
+    
+font-family: 'Roboto';
+font-size: 12pt;
+margin-left: 15px;
+color: #27272A;
+}
+input{
+    margin-left: 10px
+}
+.containerBtn{
+    padding: 12px 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer
+}
+.txt{
+    font-family: 'Roboto';
+    font-weight: 600
+}

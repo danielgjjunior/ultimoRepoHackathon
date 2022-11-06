@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    display: flex;
+    width: 90%;
+    border: 0.5px solid #025373;
+}
+
+.header img{
+    width: 150px;
+}

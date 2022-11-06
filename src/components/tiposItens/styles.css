@@ -1,0 +1,21 @@
+#listTipos{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 50px;
+    background: #E4E4E7;
+    padding: 5px;
+    justify-content: center;
+    margin: 10px 0;
+    border: 2px  solid
+    
+}
+
+
+#listTipos span{
+    
+font-family: 'Roboto';
+font-size: 12pt;
+margin-left: 15px;
+color: #27272A;
+}
