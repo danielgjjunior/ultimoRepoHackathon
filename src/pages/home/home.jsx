@@ -2,7 +2,6 @@ import React from 'react'
 import {Header} from '../../components/header/Header';
 import './home.css'
 
-
 export function Home(){
     return (
     
@@ -40,5 +39,6 @@ export function Home(){
         <input type="submit" value="Próximo" className='containerBtn' />
       </form>
     </div >
+
   )
 }
