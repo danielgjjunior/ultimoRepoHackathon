@@ -1,59 +1,57 @@
-
-form{
+form {
     display: flex;
     flex-direction: column
 }
-.containerGlobal{
+
+.containerGlobal {
     display: grid
 }
-.listContainer{
+
+.listContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
     margin-top: 10px;
     height: 35vh;
-    overflow-y: scroll;
-    display:grid;
-    gap: 10px
+    overflow-y: hidden;
 }
-h1{
+
+h1 {
     margin-top: 80px;
     font-family: 'Roboto';
     font-weight: 400;
     max-width: 300px;
     font-size: 28pt
 }
-.listTipos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 20em;
-    height: 50px;
-    background: #E4E4E7;
+
+.listTipos {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #025373 !important;
     padding: 5px;
-    justify-content: left;
-    
 }
 
+.listTipos span {
 
-.listTipos span{
-    
-font-family: 'Roboto';
-font-size: 12pt;
-margin-left: 15px;
-color: #27272A;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12pt;
+    margin-left: 15px;
+    color: #fff !important;
 }
-input{
-    margin-left: 10px
-}
-.containerBtn{
+
+.containerBtn {
     padding: 12px 20px;
     display: inline-block;
     text-align: center;
-    margin: 80px ;
+    margin: 80px;
     cursor: pointer;
-    background-color: #025373;
     color: #F2F2F2;
     border: none;
 }
-.txt{
+
+.txt {
     font-family: 'Roboto';
     font-weight: 600
 }

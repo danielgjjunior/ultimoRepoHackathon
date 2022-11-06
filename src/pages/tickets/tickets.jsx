@@ -70,7 +70,6 @@ export function Tickets() {
 
         <div id='masterContainer'>
             <Header></Header>
-            <h1>{a}</h1>
             <h1>Sua senha é:</h1>
             <div className='passContainer'>
                 <h1 id='password'>{format}</h1>
