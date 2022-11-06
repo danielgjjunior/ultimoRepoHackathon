@@ -37,7 +37,7 @@ export function Rate() {
                 <img src={star} id="5" ref={starChecked5} onClick={(e) => handleClick(e)} />
             </div>
             <form action="">
-                <input type="number" ref={numInput} hidden />
+                <input type="number" ref={numInput} id="hiddenInput" />
                 <input type="textarea" className="textarea" placeholder="Fale sobre a sua experiência"/>
 
                 <input type="submit" value="Enviar" className='containerBtn'  />

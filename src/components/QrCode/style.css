@@ -13,7 +13,7 @@ input{
     padding: 5px;
     width: 500px;
     font-size: 1.2rem;
-    display: block;
+    display: none;
 }
 div{
     display: flex;
