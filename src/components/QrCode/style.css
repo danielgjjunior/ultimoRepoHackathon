@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+code{
+    font-family: 'Roboto';
+}
+
+input{
+    padding: 5px;
+    width: 500px;
+    font-size: 1.2rem;
+    display: block;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+

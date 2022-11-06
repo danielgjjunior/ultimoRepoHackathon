@@ -1,10 +1,14 @@
 
+form{
+    display: flex;
+    flex-direction: column
+}
 .containerGlobal{
     display: grid
 }
 .listContainer{
     margin-top: 10px;
-    height: 40vh;
+    height: 35vh;
     overflow-y: scroll;
     display:grid;
     gap: 10px
@@ -43,8 +47,11 @@ input{
     padding: 12px 20px;
     display: inline-block;
     text-align: center;
-    margin: 20px auto;
-    cursor: pointer
+    margin: 80px ;
+    cursor: pointer;
+    background-color: #025373;
+    color: #F2F2F2;
+    border: none;
 }
 .txt{
     font-family: 'Roboto';

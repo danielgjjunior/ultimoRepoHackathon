@@ -1,0 +1,29 @@
+img{
+    width: 15vw;
+}
+.starContainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+h1{
+    margin: auto;
+    margin-top: 100px
+}
+.containerBtn{
+    padding: 12px 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: #68A63C;
+    color: #F2F2F2;
+    border: none;
+}
+.textarea{
+    height: 160px;
+    margin-top: 50px;
+    background-color: #E4E4E7;
+    border: none;
+    border-radius: 4px;
+    padding: 15px
+}

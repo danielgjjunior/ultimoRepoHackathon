@@ -1,0 +1,39 @@
+#masterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align items: center
+}
+.passContainer{
+    background-color: #025373;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0 20px;
+    width: 80%;
+    margin: auto
+}
+#password{
+    color: #F2F2F2;
+    font-size: 48pt;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 72pt
+}
+.queueStatus{
+    font-size: 10pt;
+    font-family: 'Roboto';
+    color: #A1A1AA;
+    font-weigth: 200;
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 180px
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 150px
+}
+a{
+    margin: auto
+}

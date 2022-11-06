@@ -6,7 +6,7 @@
 
 .line{
     display: flex;
-    width: 90%;
+    width: 300px;
     border: 0.5px solid #025373;
 }
 
